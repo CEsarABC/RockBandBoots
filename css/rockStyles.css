@@ -4,13 +4,13 @@ body{
 }
 
 .container{
-    width: 992px;
+    /*width: 992px;*/
     margin: auto;
 }
 .mainImage{
     max-width: 992px;
     min-width: 480px;
-    max-height: 500px;
+
     background-color: white;
 
     }
@@ -46,5 +46,8 @@ body{
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+    .mainImage{
+        width: 480px;
+    }
 /* css specific properties col-xs-* or none for default*/
 }
