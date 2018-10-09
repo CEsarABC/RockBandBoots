@@ -3,10 +3,6 @@ body{
     background-color: #1b1e21;
 }
 
-.container{
-    /*width: 992px;*/
-    margin: auto;
-}
 .mainImage{
     max-width: 992px;
     min-width: 480px;
@@ -15,7 +11,9 @@ body{
 
     }
 
-
+.jumbotron{
+    max-width: 992px;
+}
 
 
 /*==================================================
