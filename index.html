@@ -10,7 +10,18 @@
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/rockStyles.css">
+<style>
+    .thumbnail {
+    position: relative;
+}
 
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+}
+</style>
 
 
 </head>
@@ -18,7 +29,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
         <div class="container">
-            <a class="navbar-brand" href="#">Pink Floyd</a>
+            <a class="navbar-brand text-muted" href="#">Pink Floyd Project</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,16 +65,26 @@
             </div>
         </div>
     </nav>
+
 <div class="container">
-    <div class="jumbotron">
-         <div class="container">
-             <h1>Pink Floyd</h1>
-             <p>A light weight, flexible component...</p>
-             <p><a class="btn btn-primary btn-large" href="#"> Learn more </a> </p>
-         </div>
+    <!--<div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="row" id="box-search">
+    <div class="thumbnail">
+        <img src="images/main.jpg" alt="" class="img-fluid">
+        <div class="caption text-right text-white">
+            <h1>PinkFloyd</h1>
+        </div>
+    </div>
+
     </div>
 </div>
-
 <!-- Scripts for bootstrap components -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
