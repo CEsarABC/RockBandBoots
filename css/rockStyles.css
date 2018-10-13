@@ -27,6 +27,11 @@ body{
     font-family: 'Cinzel', serif;
     color: lightslategray;
 }
+
+i{
+    color: white;
+    font-size: 2em;
+}
 /*==================================================
 =                   Google Fonts            =
 ==================================================*/
