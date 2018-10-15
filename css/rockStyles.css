@@ -10,7 +10,20 @@ body{
     background-color: white;
 
     }
+.thumbnail {
+    position: relative;
+    border-bottom: #4e555b solid 1px;
+}
 
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+}
+#tittleMain{
+    font-size: 2em;
+}
 .jumbotron{
     max-width: 992px;
 }
@@ -31,6 +44,11 @@ body{
 i{
     color: white;
     font-size: 2em;
+}
+#footer{
+    border-top: #4e555b solid 1px;
+    padding-top: 10px;
+    font-size: 0.8em;
 }
 /*==================================================
 =                   Google Fonts            =
