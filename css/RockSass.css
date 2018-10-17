@@ -1,3 +1,96 @@
+.fontTittles {
+  font-size: 2em;
+  font-family: "Rock Salt", cursive;
+  color: orange; }
 
+body {
+  background-color: #1b1e21;
+  color: e1e1e1; }
+
+p {
+  color: e1e1e1; }
+
+.mainImage {
+  max-width: 992px;
+  min-width: 480px;
+  background-color: white; }
+
+.thumbnail {
+  position: relative;
+  border-bottom: #4e555b solid 1px; }
+
+.caption {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%; }
+
+.borderB {
+  padding-top: 10px;
+  border-top: solid 1px lightslategrey; }
+
+.font1 {
+  font-family: "Rock Salt", cursive;
+  color: orange; }
+
+.font2 {
+  font-family: "Cinzel", serif;
+  color: orange; }
+
+i {
+  color: white;
+  font-size: 2em; }
+
+#footer {
+  border-top: solid 1px #8b5a22;
+  padding-top: 10px;
+  font-size: 0.8em; }
+
+h3 {
+  color: orange; }
+
+.jumbotron {
+  background-image: linear-gradient(#1a2d4c, #1b1e21);
+  color: orange; }
+
+.navbar-brand {
+  font-size: 0.8em; }
+
+a:hover {
+  color: lightslategrey; }
+
+@media (min-width: 1200px) {
+  #tittleMain, h1 {
+    font-size: 3em; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tittleMain, h1 {
+    font-size: 3em; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #tittleMain, h1 {
+    font-size: 2em; } }
+@media (max-width: 767px) {
+  h2 {
+    font-size: medium; }
+
+  h3 {
+    font-size: medium; }
+
+  #tittleMain, h1 {
+    font-size: large; } }
+@media (max-width: 480px) {
+  body {
+    font-size: 0.8em; }
+
+  .mainImage {
+    width: 480px; }
+
+  h2 {
+    font-size: medium; }
+
+  h3 {
+    font-size: medium; }
+
+  #tittleMain {
+    font-size: large; } }
 
 /*# sourceMappingURL=RockSass.css.map */

@@ -1,9 +1,9 @@
 
-body{
+/*body{
     background-color: #1b1e21;
-}
+}*/
 
-.mainImage{
+/*.mainImage{
     max-width: 992px;
     min-width: 480px;
 
@@ -58,6 +58,9 @@ h3{
 .navbar-brand{
     font-size: 0.8em;
 }
+a:hover{
+    color: lightgray;
+}*/
 /*==================================================
 =                   Google Fonts                   =
 ==================================================*/
