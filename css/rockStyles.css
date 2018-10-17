@@ -55,6 +55,9 @@ h3{
     background-image: linear-gradient(#1a2d4c, #1b1e21);
     color: orange;
 }
+.navbar-brand{
+    font-size: 0.8em;
+}
 /*==================================================
 =                   Google Fonts                   =
 ==================================================*/
