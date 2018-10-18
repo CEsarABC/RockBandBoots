@@ -7,12 +7,23 @@
   font-family: "Rock Salt", cursive;
   color: orange; }
 
+.font1 {
+  font-family: "Rock Salt", cursive;
+  color: orange; }
+
+.font2 {
+  font-family: "Cinzel", serif;
+  color: orange; }
+
+.fontSub {
+  font-family: "Nothing You Could Do", cursive; }
+
 body {
   background-color: #1b1e21;
-  color: e1e1e1; }
+  color: white; }
 
 p {
-  color: e1e1e1; }
+  color: white; }
 
 .mainImage {
   max-width: 992px;
@@ -33,16 +44,8 @@ p {
   padding-top: 10px;
   border-top: solid 1px lightslategrey; }
 
-.font1 {
-  font-family: "Rock Salt", cursive;
-  color: orange; }
-
-.font2 {
-  font-family: "Cinzel", serif;
-  color: orange; }
-
 i {
-  color: white;
+  color: #4e555b;
   font-size: 2em; }
 
 #footer {
@@ -61,8 +64,25 @@ h3 {
 .navbar-brand {
   font-size: 0.8em; }
 
+a {
+  color: #4e555b; }
+
 a:hover {
   color: lightslategrey; }
+
+.dropdown-item, .dropdown-menu {
+  background-color: #4e555b;
+  color: #cccccc; }
+
+.hero-image::after {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%); }
+
+th {
+  color: #bf862c;
+  font-family: "Nothing You Could Do", cursive; }
+
+#gallerySeeds img:hover {
+  border: solid 1px white; }
 
 /*-------------------- media queries----------------// */
 @media (min-width: 1200px) {
