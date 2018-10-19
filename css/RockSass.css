@@ -90,8 +90,8 @@ th {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
-  height: 0; }
+  padding-bottom: 70%;
+  height: 100%; }
 
 .iframe-container iframe {
   position: absolute;
