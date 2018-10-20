@@ -57,89 +57,40 @@
 <div class="container">
     <div class="jumbotron text-center">
     <div class="container">
-        <h1 class="font1">2018  /  2019 tour!!</h1>
-        <p>The dates for the next public concerts, if you want info on our private events click
-            <a href="#">here</a>
-        </p>
+        <h1 class="font1">CONTACT</h1>
+        <p>Send us your enquiry, including exact date and location</p>
     </div>
     </div>
 </div>
 
 
-<!--            TOUR TABLE                   -->
-
-
-<div class="container">
-    <table class="table table-dark">
-        <thead>
-        <tr>
-            <th>City</th>
-            <th>Date</th>
-            <th>Venue</th>
-            <th>Tickets</th>
-        <tr>
-            <th scope="row">Beirut</th>
-            <td>Saturday, October 27th, 2018</td>
-            <td>Seaside Arena</td>
-            <td><a>www.ticketmaster.org</a></td>
-        </tr>
-        <tr>
-            <th scope="row">Perth</th>
-            <td>Friday, November 2nd, 2018</td>
-            <td>At The Gates Of Dawn</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Adelaide</th>
-            <td>Sunday, November 4th, 2018</td>
-            <td>Atom Heart Mother</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Brisbane</th>
-            <td>Tuesday, November 6th, 2018</td>
-            <td>Obscured By Clouds</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Melbourne</th>
-            <td>Thursday, November 8th, 2018</td>
-            <td>Animals</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Sydney</th>
-            <td>Saturday, November 10th, 2018</td>
-            <td>A Momentary Lapse Of Reason</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Auckland</th>
-            <td>Monday, November 12th, 2018</td>
-            <td>Rock Hour</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Durant</th>
-            <td>Saturday, January 26th, 2019</td>
-            <td>Wild Exhibitions</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Limassol</th>
-            <td>Saturday, February 9th, 2019</td>
-            <td>The Division Bell</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        <tr>
-            <th scope="row">Pretoria</th>
-            <td>Friday, October 4th, 2019</td>
-            <td>The Show Goes On</td>
-            <td>www.ticketmaster.org</td>
-        </tr>
-        </tbody>
-    </table>
+<!--            FORM                   -->
+<div class="container" id="formContainer">
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control form-control-lg" type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+            <label for="event">Type of Event</label>
+            <select class="form-control" id="event">
+                <option>--</option>
+                <option>Private Party</option>
+                <option>Wedding</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+        </div>
+        <button class="btn btn-info btn-block" type="submit">Submit</button>
+    </form>
 </div>
+
 
 <!--            FOOTER                -->
 
