@@ -39,8 +39,18 @@ adobe Illustrator(Wireframes)
 
 # Testing
 
+- The grid was implemented with bootstrap 4 which brings lots of new features as the classic ones.
+
+- the use of SASS came later in development, as this is my first html web development with multiple pages
+I saw it fit to start using SASS in order to create a solid base to the development 
+
 - the web page needed to be responsive in all screens, following the media queries all screens where tested in order to
 adjust the content and size of fonts, pictures and components.
+
+- the idea of having the navigation bar in the middle of the main page created problems in the development and was changed to
+have a better structure in all pages 
+
+- the page history was replaced by discography not to over extend the development of the mini project 
 
 - the challenge was to make the spotify and twitter components responsive, taking a look to tutorials explaining responsiveness
 they are now responding to screen size 
