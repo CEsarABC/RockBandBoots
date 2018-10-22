@@ -22,7 +22,7 @@ $darkBlue: #1b1e21
 
 //fonts
 
-.fontTittles
+.fontTitles
   font-size: 2em
   font-family: "Rock Salt", cursive
   color: $mainTittlesColor
@@ -57,6 +57,7 @@ p
   background-color: white
 
 .thumbnail
+  padding: 0
   position: relative
   border-bottom: $Yburned solid 1px
 
@@ -100,9 +101,6 @@ a:hover
   background-color: #4e555b
   color: #cccccc
 
-.hero-image::after
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%)
-
 th
   color: $subTittles
   font-family: "Nothing You Could Do", cursive
@@ -123,21 +121,26 @@ th
   width: 100%
   height: 100%
 
+.mainPicture
+  height: 500px
+  background-repeat: no-repeat
+  background-size: contain
+
 /*-------------------- media queries----------------//
 
 
 @media (min-width: 1200px)
-  #tittleMain, h1
+  #titleMain, h1
     font-size: 3em
 
 
 @media (min-width: 992px) and (max-width: 1199px)
-  #tittleMain,h1
+  #titleMain,h1
     font-size: 3em
 
 
 @media (min-width: 768px) and (max-width: 991px)
-  #tittleMain,h1
+  #titleMain,h1
     font-size: 2em
 
 
@@ -148,7 +151,7 @@ th
   h3
     font-size: 1.5em
 
-  #tittleMain,h1
+  #titleMain,h1
     font-size: large
 
 
@@ -166,5 +169,5 @@ th
   h3
     font-size: 1.5em
 
-  #tittleMain
+  #titleMain
     font-size: large
