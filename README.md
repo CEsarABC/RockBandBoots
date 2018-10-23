@@ -75,19 +75,32 @@ thanks to my tutor Victor Miclovich for the support and the guide
 the code it's been writen taking examples from different internet tutorials and using mostly as guide the code Institute exercises for my development.
 
 small blocks of code were taken from my code academy exercises and internet pages mostly for the new Bootstrap 4.1
+https://getbootstrap.com/docs/4.0/
 
-the following pages where use for content (pictures and videos):
+* the following pages where use for content (pictures and videos):
 
 musicvenuetrust.com
+
 ultimateclassicrock.com
+
 www.worldstopmost.com
+
 pinkfloydarchives.com
+
 pixshark.com
+
 www.thoughtco.com
+
 www.telegraph.co.uk
+
 www.pinterest.com
+
 tadeu-amaral.deviantart.com
-https://www.allmusic.com/artist/pink-floyd-mn0000346336/biography,
+
+https://www.allmusic.com/artist/pink-floyd-mn0000346336/biography
+
 https://www.discogs.com/
+
 https://www.bbc.co.uk/
+
 https://www.youtube.com/
