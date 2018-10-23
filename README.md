@@ -25,7 +25,7 @@ band I decided to use the twitter feed from one of the bands I used for content 
 Similar access to social media was used in the Media page to link media as music from spotify and videos from youtube to 
 give this modern look to the page, one interview with a band was added to give more content to the page (local content).
 
-The gallery was a bit problematic as I wanted to avoid using java technologies, focusing on the front end development, the bootstrap carousell was a good adition to the page as previously I had just thumbnails as links to pictures.
+The gallery was a bit problematic as I wanted to avoid using java technologies, focusing on the front end development, the bootstrap carousel was a good addition to the page as previously I had just thumbnails as links to pictures.
 
 #Technologies Used
 
