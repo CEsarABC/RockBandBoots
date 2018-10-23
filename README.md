@@ -34,7 +34,9 @@ SASS,
 github, 
 git bash, 
 pycharm,
-adobe Illustrator(Wireframes)
+adobe Illustrator(Wireframes),
+google fonts,
+font awesome
 
 
 # Testing
@@ -57,7 +59,11 @@ they are now responding to screen size
 
 - git hub pages was implemented successfully.
 
-* https://cesarabc.github.io/RockBandBoots/index.html project visualization.
+* project visualization  [Rock Project] (https://cesarabc.github.io/RockBandBoots/index.html)
+
+
+- Wireframes were made in Adobe Illustrator
+![wireframes](https://cesarabc.github.io/RockBandBoots/wireframes/RockMockup.jpg)
 
 
 # Acknowledgements
